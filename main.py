@@ -13,7 +13,7 @@ from src.search.router import router as search_router
 
 description = """
 
-ioDS3 V1.5 接口文档. 🚀
+ioDS3 V1.0 demo 接口文档. 🚀
 
 ## 目的
 
@@ -34,10 +34,10 @@ ioDS3 V1.5 接口文档. 🚀
 """
 
 app = FastAPI(
-    title="ioDS3 API",
+    title="ioDS3 demo API",
     description=description,
     # summary="ioDS3 API",
-    version="1.5.0",
+    version="1.0.0",
     # terms_of_service="暂无",
     contact={
         "name": "zylliondata",
