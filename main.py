@@ -29,7 +29,6 @@ ioDS3 V1.5 接口文档. 🚀
 
 * Datahub
 * Trino
-* Superset
 * Spark
 
 """
@@ -41,12 +40,12 @@ app = FastAPI(
     version="1.5.0",
     # terms_of_service="暂无",
     contact={
-        "name": "王明浩",
+        "name": "zylliondata",
         "email": "wangmh@zylliondata.com",
     },
     license_info={
-        "name": "Zylliondata 2.0 License",
-        "url": "https://www.zylliondata.com",
+        "name": "Apache2.0 License",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.html",
     },
     docs_url="/docs",
     redoc_url="/redoc"
