@@ -1,0 +1,27 @@
+# Pycharm project files
+.idea
+*.iml
+index.html
+out
+gen
+.vscode/
+
+# Vagrant
+.vagrant/
+.box
+
+# Docker Compose
+spark-warehouse/
+.bash_history
+
+# Project
+format.json
+node_modules/
+_book/
+site/
+venv/
+public/
+config/*
+nacos-data/*
+venv/*
+```

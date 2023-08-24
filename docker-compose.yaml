@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  iods3:
+    build:
+      context: .
+    image: zylliondata/iods3/meta:1.5.0  # change to your image
+    ports:
+      - 8080:8080

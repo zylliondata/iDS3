@@ -1,0 +1,12 @@
+acryl-datahub[delta-lake]
+acryl-datahub[datahub-rest]
+requests~=2.31.0
+pydantic~=1.10.11
+fastapi~=0.100.0
+uvicorn~=0.23.1
+nacos-sdk-python~=0.1.12
+pymysql~=1.1.0
+SQLAlchemy~=2.0.19
+tortoise~=0.1.1
+trino~=0.326.0
+tortoise-orm~=0.19.3
